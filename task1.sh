@@ -80,16 +80,6 @@ init() {
     exit 0;
   }
 
-  # modules kubectl & docker-credentials-gcr
-#  [ $($GCLOUD_BIN components list 2>/dev/null | grep -i -e docker-credential-gcr | sed -e '/~^|/d' | wc -l) -eq "1" ] || { echo gcloud component docker-credentials-gcr is not installed;
-#    help
-#    exit 0;
-#  }
- # [ $($GCLOUD_BIN components list 2>/dev/null | grep -i -e kubectl | sed -e '/~^|/d' | wc -l) -eq "1" ] || { echo gcloud component kubectl is not installed;
- #   help
- #   exit 0;
- # }
-
   KUBECTL_BIN=$(which kubectl)
   echo "Environment ... "
   output
