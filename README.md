@@ -9,7 +9,7 @@
 # Primero, necesitamos crear una cuenta de servicio, la cual tenga el rol asignado para crear el cluster, esto es la base
   de nuestra autenticacion, se declara en el siguiente valor
 
-    GOOGLE_APPLICATION_CREDENTIALS="/tmp/" 
+    GOOGLE_APPLICATION_CREDENTIALS="/tmp/dulce-palace-300.json" 
     
 # Parametros
 
